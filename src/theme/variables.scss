@@ -46,12 +46,12 @@ ion-searchbar {
 
 :root {
   /** primary **/
-  --ion-color-primary: linear-gradient(135deg, #c56cd6 0%, #613bbb 100%);
+  --ion-color-primary: linear-gradient(270deg, #C8325D 0%, #921D40 100%);
   --ion-color-primary-rgb: 56, 128, 255;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
-  --ion-color-primary-shade: linear-gradient(135deg, #ce9ffc 0%, #8f78f3 100%);
-  --ion-color-primary-tint: linear-gradient(135deg, #ba93f9 0%, #8874f2 100%);
+  --ion-color-primary-shade: linear-gradient(270deg, #C8325D 0%, #921D40 100%);
+  --ion-color-primary-tint: linear-gradient(270deg, #C8325D 0%, #921D40 100%);
 
   /** secondary **/
   --ion-color-secondary: linear-gradient(135deg, #0ec7f1 0%, #0470dc 100%);
@@ -66,7 +66,7 @@ ion-searchbar {
   --ion-color-secondary-tint: linear-gradient(135deg, #09a2e8 0%, #0681e0 100%);
 
   /** tertiary **/
-  --ion-color-tertiary: linear-gradient(135deg, #ab5fcf 0%, #3425af 100%);
+  --ion-color-tertiary: linear-gradient(135deg, #c56cd6 0%, #613bbb 100%);
   --ion-color-tertiary-rgb: 82, 96, 255;
   --ion-color-tertiary-contrast: #ffffff;
   --ion-color-tertiary-contrast-rgb: 255, 255, 255;
