@@ -1,0 +1,110 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="1">
+          <ion-icon routerLink="/home" name="arrow-back-outline"></ion-icon>
+        </ion-col>
+        <ion-col>
+          <ion-title>Insurance</ion-title>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="content-wrapper">
+    <h1>{{ 'Select Insurance' | translate }}</h1>
+    <div class="bac-white">
+      <div class="list-bar">
+        <ion-grid>
+          <ion-row>
+            <ion-col size="1">
+              <ion-list>
+                <ion-checkbox [(ngModel)]="cucumber" slot="start"></ion-checkbox>
+              </ion-list>
+            </ion-col>
+            <ion-col size="6">
+              <h4>Insurance 1</h4>
+              <h6>Doha, address 987</h6>
+            </ion-col>
+            <ion-col class="ion-text-right">
+              <span class="location">
+                <ion-icon name="location-outline"></ion-icon>Location
+              </span>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+      <div class="list-bar">
+        <ion-grid>
+          <ion-row>
+            <ion-col size="1">
+              <ion-list>
+                <ion-checkbox [(ngModel)]="cucumber1" slot="start"></ion-checkbox>
+              </ion-list>
+            </ion-col>
+            <ion-col size="6">
+              <h4>Insurance 1</h4>
+              <h6>Doha, address 987</h6>
+            </ion-col>
+            <ion-col class="ion-text-right">
+              <span class="location">
+                <ion-icon name="location-outline"></ion-icon>Location
+              </span>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+      <div class="list-bar">
+        <ion-grid>
+          <ion-row>
+            <ion-col size="1">
+              <ion-list>
+                <ion-checkbox [(ngModel)]="cucumber2" slot="start"></ion-checkbox>
+              </ion-list>
+            </ion-col>
+            <ion-col size="6">
+              <h4>Insurance 1</h4>
+              <h6>Doha, address 987</h6>
+            </ion-col>
+            <ion-col class="ion-text-right">
+              <span class="location">
+                <ion-icon name="location-outline"></ion-icon>Location
+              </span>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+      <div class="list-bar">
+        <ion-grid>
+          <ion-row>
+            <ion-col size="1">
+              <ion-list>
+                <ion-checkbox [(ngModel)]="cucumber3" slot="start"></ion-checkbox>
+              </ion-list>
+            </ion-col>
+            <ion-col size="6">
+              <h4>Insurance 1</h4>
+              <h6>Doha, address 987</h6>
+            </ion-col>
+            <ion-col class="ion-text-right">
+              <span class="location">
+                <ion-icon name="location-outline"></ion-icon>Location
+              </span>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-bar no-gap">
+    <ion-row class="no-gap">
+      <ion-grid size="12" class="no-gap">
+        <ion-button color="primary" routerLink="/register" size="large" class="ion-text-capitalize" expand="full"
+          shape="round">{{ 'NEXT' | translate }}</ion-button>
+      </ion-grid>
+    </ion-row>
+  </div>
+</ion-content>

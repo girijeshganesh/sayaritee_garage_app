@@ -101,10 +101,19 @@ const routes: Routes = [
   {
     path: 'search',
     loadChildren: () => import('./search/search.module').then( m => m.SearchPageModule)
-  },  {
+  },
+  {
     path: 'add-new-address',
     loadChildren: () => import('./add-new-address/add-new-address.module').then( m => m.AddNewAddressPageModule)
+  },
+  {
+    path: 'vehicle',
+    loadChildren: () => import('./vehicle/vehicle.module').then( m => m.VehiclePageModule)
+  },  {
+    path: 'insurance',
+    loadChildren: () => import('./insurance/insurance.module').then( m => m.InsurancePageModule)
   }
+
 
 
 ];
