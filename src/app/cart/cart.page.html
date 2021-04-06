@@ -1,0 +1,75 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="1">
+          <ion-icon routerLink="/home" name="arrow-back-outline"></ion-icon>
+        </ion-col>
+        <ion-col>
+          <ion-title>{{ 'My Cart' | translate }}</ion-title>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="content-wrapper">
+    <h1>{{ 'My cart' | translate }}</h1>
+    <div class="bac-white padding">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="4">
+            <div class="cart-grp">
+              <div class="cart-inner">
+              <ion-img src="../../assets/products/spare.jpg" class="spare-img"></ion-img>
+              </div>
+            </div>
+          </ion-col>
+          <ion-col size="8">
+            <div class="cart-grp">
+              <h4>SparK plug 12V</h4>
+              <span class="remove">
+                {{ 'Remove' | translate }}
+              </span>
+            </div>
+          </ion-col>
+        </ion-row>
+                <ion-row>
+          <ion-col size="4">
+            <div class="cart-grp">
+              <div class="cart-inner">
+                <ion-img src="../../assets/products/spare.jpg" class="spare-img"></ion-img>
+                </div>
+            </div>
+          </ion-col>
+          <ion-col size="8">
+            <div class="cart-grp">
+              <h4>SparK plug 12V</h4>
+              <span class="remove">
+                {{ 'Remove' | translate }}
+              </span>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <h2>{{ 'Comments' | translate }}</h2>
+      <ion-textarea placeholder="Comments here" class="textarea-custom"></ion-textarea>
+    </div>
+  </div>
+  <div class="bottom-bar no-gap">
+    <ion-row class="no-gap">
+      <ion-grid size="12" class="no-gap">
+        <ion-button
+          color="primary"
+          routerLink="/register"
+          size="large"
+          class="ion-text-capitalize"
+          expand="full"
+          shape="round"
+          >{{ 'GET QUOTE' | translate }}</ion-button
+        >
+      </ion-grid>
+    </ion-row>
+  </div>
+</ion-content>

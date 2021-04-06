@@ -1,0 +1,60 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="1">
+          <ion-icon routerLink="/home" name="arrow-back-outline"></ion-icon>
+        </ion-col>
+        <ion-col>
+          <ion-title>{{ 'Take to garage' | translate }}</ion-title>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="content-wrapper">
+    <h1>{{ 'Take to garage' | translate }}</h1>
+    <div class="bac-white">
+      <ion-list>
+        <ion-radio-group value="biff">
+          <ion-item>
+            <ion-label>{{ 'Towing service' | translate }}</ion-label>
+            <ion-radio slot="start" value="biff"></ion-radio>
+          </ion-item>
+      
+          <ion-item>
+            <ion-label>{{ 'Myself' | translate }}</ion-label>
+            <ion-radio slot="start" value="griff"></ion-radio>
+          </ion-item>
+
+        </ion-radio-group>
+      </ion-list>
+      <div id="map_canvas" style="height:100%;"></div>
+      <ion-list class="bac-transparent">
+        <ion-item>
+          <ion-label>
+            <div class="sp-label">I accept the terms and conditions and privacy policy</div>
+          </ion-label>
+          <ion-checkbox slot="start" ></ion-checkbox>
+        </ion-item>
+      </ion-list>
+    </div>
+  </div>
+  <div class="bottom-bar no-gap">
+    <ion-row class="no-gap">
+      <ion-grid size="12" class="no-gap">
+        <ion-button
+          color="primary"
+          routerLink="/register"
+          size="large"
+          class="ion-text-capitalize"
+          expand="full"
+          shape="round"
+          >{{ 'SUBMIT' | translate }}</ion-button
+        >
+      </ion-grid>
+    </ion-row>
+  </div>
+</ion-content>

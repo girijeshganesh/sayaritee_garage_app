@@ -1,0 +1,32 @@
+.padding {
+    padding: 10px;
+}
+h2 {
+    color: #5A5A5A;
+    font-size: 16px;
+}
+.textarea-custom {
+    background: #E2E2E282;
+    min-height: 100px;
+    border-radius: 5px;
+}
+.cart-grp {
+    h4 {
+        color: #7A7A7A;
+        font-size: 16px;
+    }
+    .remove {
+        color: #AD274E;
+        font-size: 10px;
+        border-radius: 100px;
+        padding: 5px 10px;
+        border: 1px solid #AD274E;
+    }
+    .cart-inner {
+        background:#F3F3F3;
+        border-radius: 15px;
+        .spare-img {
+            padding: 20px;
+        }
+    }
+}

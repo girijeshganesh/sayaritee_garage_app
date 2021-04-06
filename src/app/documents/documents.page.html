@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="1">
+          <ion-icon routerLink="/home" name="arrow-back-outline"></ion-icon>
+        </ion-col>
+        <ion-col>
+          <ion-title>{{ 'Documents' | translate }}</ion-title>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="content-wrapper">
+    <h1>{{ 'Upload documents' | translate }}</h1>
+    <div class="bac-white">
+      <div class="list-bar padding">
+        <h6 class="pt-15">{{ 'Vehicle image' | translate }}</h6>
+        <div class="file-upload">
+          <ion-input type="file" accept="image/*" id="upload" class="file-type"></ion-input>
+          <ion-icon name="add-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="list-bar padding">
+        <h6>{{ 'Upload istimara' | translate }}</h6>
+        <div class="file-upload">
+          <ion-input type="file" accept="image/*" id="upload" class="file-type"></ion-input>
+          <ion-icon name="add-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="list-bar padding">
+        <h6>{{ 'Upload QID' | translate }}</h6>
+        <div class="file-upload">
+          <ion-input type="file" accept="image/*" id="upload" class="file-type"></ion-input>
+          <ion-icon name="add-outline"></ion-icon>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="bottom-bar no-gap">
+    <ion-row class="no-gap">
+      <ion-grid size="12" class="no-gap">
+        <ion-button color="primary" routerLink="/register" size="large" class="ion-text-capitalize" expand="full"
+          shape="round">{{ 'NEXT' | translate }}</ion-button>
+      </ion-grid>
+    </ion-row>
+  </div>
+</ion-content>

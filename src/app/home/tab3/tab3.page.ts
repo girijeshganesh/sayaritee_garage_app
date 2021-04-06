@@ -13,7 +13,17 @@ export class Tab3Page implements OnInit {
   ngOnInit(){
     this.doTotalCalculation();
   }
-
+  categories = {
+    "categories": [
+      "Mechanical",
+      "Electrical",
+      "Detailing",
+      "Mechanical",
+      "Electrical",
+      "Detailing",
+      "Mechanical"
+    ]
+  }; 
   totalCost = 0;
   cart = [
     {
@@ -42,7 +52,11 @@ export class Tab3Page implements OnInit {
         "regularPrice":1200,
         "salesPrice":999
     }];
-
+    form = [
+      { val: 'Tyre and alloy relpacement', isChecked: true },
+      { val: 'Car polish and detailing', isChecked: false },
+      { val: 'Body kits', isChecked: false }
+    ];
     lessQty(index){
       if(this.cart[index].quantity > 0){
         this.cart[index].quantity = this.cart[index].quantity-1;

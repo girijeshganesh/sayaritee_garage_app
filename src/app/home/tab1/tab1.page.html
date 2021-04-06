@@ -6,7 +6,9 @@
         <ion-img src="../../../assets/products/logo-white.svg"></ion-img>
       </ion-col>
       <ion-col size="6" class="ion-text-center">
-        <ion-img src="../../../assets/products/profile-user.png"></ion-img>
+        <div class="nav-bc-icon">
+          <ion-icon name="person" class="icn-hd-nav"></ion-icon>
+        </div>
         <div class="txt-1">{{ 'Welcome' | translate }}</div>
         <div class="txt-2">{{ 'Johny Bravo' | translate }}</div>
       </ion-col>
@@ -33,7 +35,7 @@
         </div>
       </ion-col>
       <ion-col size="6">
-        <div class="category c-3">
+        <div class="category c-3" (click)="garage()">
           <ion-img src="../../../assets/products/s3.svg" class="cat-img"></ion-img>
           <h5>{{ 'Other services' | translate }}</h5>
         </div>

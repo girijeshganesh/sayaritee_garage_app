@@ -55,7 +55,7 @@ ion-content {
 .bottom-bar {
   position: fixed;
   width: 100%;
-  bottom: 0;
+  bottom: 10px;
   background-color: transparent;
   z-index: 999;
   ion-button {
@@ -74,13 +74,26 @@ ion-content {
     font-size: 22px;
     padding: 0 10px;
   }
-  .bac-white {
-    background: #fff;
-  }
   .list-bar {
     padding: 10px 5px;
     border-bottom: 1px solid #eee;
   }
+}
+.bac-white {
+  background: #fff;
+  --background: var(--ion-background-color, #fff);
+}
+.bac-transparent {
+  background: transparent;
+}
+.white-clr {
+  color: #fff;
+}
+.d-flex {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
 }
 :root {
   /** primary **/

@@ -1,0 +1,25 @@
+h6 {
+    color: #5a5a5a;
+    font-size: 14px;
+}
+.pt-15 {
+    padding-top: 15px;
+}
+.padding {
+    padding: 0 10px;
+}
+.file-upload {
+    .file-type {
+        opacity: 0;
+        position: absolute;
+        z-index: 9;
+        height: 58px;
+    }
+    ion-icon {
+        border: 1px dotted #5A5A5A;
+        padding: 20px;
+        color: #5A5A5A;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+}

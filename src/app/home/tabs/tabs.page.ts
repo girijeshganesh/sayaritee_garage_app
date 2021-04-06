@@ -12,7 +12,7 @@ export class TabsPage {
 
   //default icons
   home = "home-outline";
-  wishlist = "heart-outline";
+  wishlist = "hammer-outline";
   cart = "bag-handle-outline";
   account = "person-outline";
 
@@ -26,8 +26,8 @@ export class TabsPage {
     }else { this.home = "home-outline"; }
 
     if(this.router.url == "/home/tabs/tab2"){
-      this.wishlist = "heart";
-    }else { this.wishlist = "heart-outline"; }
+      this.wishlist = "hammer";
+    }else { this.wishlist = "hammer-outline"; }
 
     if(this.router.url == "/home/tabs/tab3"){
       this.cart = "bag-handle";

@@ -216,5 +216,7 @@ export class Tab1Page {
     insurance() {
         this.router.navigateByUrl("/insurance");
     }
-
+    garage() {
+        this.router.navigateByUrl("/garage");
+    }
 }

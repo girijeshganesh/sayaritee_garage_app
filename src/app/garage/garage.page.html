@@ -1,0 +1,87 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="1">
+          <ion-icon routerLink="/home" name="arrow-back-outline"></ion-icon>
+        </ion-col>
+        <ion-col>
+          <ion-title>{{ 'Garage' | translate }}</ion-title>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="content-wrapper">
+    <h1>{{ 'Select Garage' | translate }}</h1>
+    <div class="bac-white">
+      <div class="list-bar back-list">
+        <ion-grid>
+          <ion-row class="d-flex align-items-center">
+            <ion-col size="1">
+              <ion-list class="bac-transparent">
+                <ion-checkbox [(ngModel)]="cucumber" slot="start"></ion-checkbox>
+              </ion-list>
+            </ion-col>
+            <ion-col size="6">
+              <h4>{{ 'Garage One' | translate }}</h4>
+              <div class="d-flex">
+                <span><ion-img src="../../../assets/products/star.svg" class="star-img"></ion-img></span>
+                <span><ion-img src="../../../assets/products/star.svg" class="star-img"></ion-img></span>
+                <span><ion-img src="../../../assets/products/star.svg" class="star-img"></ion-img></span>
+                <span><ion-img src="../../../assets/products/star.svg" class="star-img"></ion-img></span>
+                <span><ion-img src="../../../assets/products/star.svg" class="star-img"></ion-img></span>
+              </div>
+            </ion-col>
+            <ion-col class="ion-text-right">
+              <ion-icon name="chevron-forward-outline" class="white-clr"></ion-icon>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+      <div class="list-bar back-list">
+        <ion-grid>
+          <ion-row class="d-flex align-items-center">
+            <ion-col size="1">
+              <ion-list class="bac-transparent">
+                <ion-checkbox [(ngModel)]="cucumber1" slot="start"></ion-checkbox>
+              </ion-list>
+            </ion-col>
+            <ion-col size="6">
+              <h4>{{ 'Garage Two' | translate }}</h4>
+              <div class="d-flex">
+                <span><ion-img src="../../../assets/products/star.svg" class="star-img"></ion-img></span>
+                <span><ion-img src="../../../assets/products/star.svg" class="star-img"></ion-img></span>
+                <span><ion-img src="../../../assets/products/star.svg" class="star-img"></ion-img></span>
+                <span><ion-img src="../../../assets/products/star.svg" class="star-img"></ion-img></span>
+                <span><ion-img src="../../../assets/products/star.svg" class="star-img"></ion-img></span>
+              </div>
+            </ion-col>
+            <ion-col class="ion-text-right">
+              <ion-icon name="chevron-forward-outline" class="white-clr"></ion-icon>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-bar no-gap">
+    <ion-row class="no-gap">
+      <ion-grid size="12" class="no-gap">
+        <ion-row>
+          <ion-col>
+            <ion-button color="primary" routerLink="/register" size="large" class="ion-text-capitalize btn-transparent" expand="full"
+            shape="round">{{ 'Refer a garage' | translate }}</ion-button>
+          </ion-col>
+          <ion-col>
+            <ion-button color="primary" routerLink="/register" size="large" class="ion-text-capitalize" expand="full"
+            shape="round">{{ 'NEXT' | translate }}</ion-button>
+          </ion-col>
+        </ion-row>
+
+      </ion-grid>
+    </ion-row>
+  </div>
+</ion-content>
