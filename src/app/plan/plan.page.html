@@ -1,20 +1,54 @@
-<ion-content>
-  <div class="ion-text-center">
-    <ion-img src="../../../assets/products/logo-red.svg" class="logo-img"></ion-img>
-    <h2>{{ 'Choose' | translate }}</h2>
-    <h1>{{ 'your plan' | translate }}</h1>
-  </div>
-  <div class="plan-scn">
-    <ion-grid>
-      <ion-row>
-        <ion-col>
-          <ion-icon name="checkmark-outline"></ion-icon><span class="price-spn">199</span>
-        </ion-col>
-        <ion-col>
-          
-        </ion-col>
-      </ion-row>
-    </ion-grid>
+<ion-content class="bac-white">
+  <div class="padding">
+    <div class="ion-text-center">
+      <ion-img src="../../../assets/products/logo-red.svg" class="logo-img"></ion-img>
+      <h2>{{ 'Choose' | translate }}</h2>
+      <h1>{{ 'your plan' | translate }}</h1>
+    </div>
+    <div class="plan-scn">
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-icon name="checkmark-outline"></ion-icon><span class="price-spn">199</span>
+          </ion-col>
+          <ion-col class="ion-text-right">
+            Silver <span class="view">View</span>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+    <div class="plan-scn active">
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-icon name="checkmark-outline"></ion-icon><span class="price-spn">299</span>
+          </ion-col>
+          <ion-col class="ion-text-right">
+            Diamond <span class="view">View</span>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+    <div class="payment-scn">
+      <h6 class="ion-text-center">Payment method</h6>
+      <div class="form-wrp">
+        <ion-item class="form-select-card">
+          <ion-label><ion-icon name="card-outline" class="card-payment"></ion-icon>Credit/Debit card</ion-label>
+          <ion-select>
+            <ion-select-option value="f">card 1</ion-select-option>
+            <ion-select-option value="m">card 2</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </div>
+    </div>
+    <ion-list class="bac-transparent">
+      <ion-item>
+        <ion-label>
+          <div class="sp-label">I accept the terms and conditions and privacy policy</div>
+        </ion-label>
+        <ion-checkbox slot="start"></ion-checkbox>
+      </ion-item>
+    </ion-list>
   </div>
   <div class="bottom-bar no-gap">
     <ion-row class="no-gap">

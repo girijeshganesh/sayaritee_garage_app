@@ -84,7 +84,8 @@ ion-content {
   --background: var(--ion-background-color, #fff);
 }
 .bac-transparent {
-  background: transparent;
+  background: transparent !important;
+  --background: var(--ion-background-color, transparent);
 }
 .white-clr {
   color: #fff;

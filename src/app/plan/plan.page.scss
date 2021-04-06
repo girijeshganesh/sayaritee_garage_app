@@ -1,0 +1,82 @@
+.padding {
+    padding: 15px 10px;
+}
+.logo-img {
+    width: 135px;
+    height: 45px;
+    margin: auto;
+}
+h2 {
+    color: #5A5A5A;
+    font-size: 20px;
+    margin: 30px 0 0;
+}
+h1 {
+    color: #5A5A5A;
+    font-size: 27px;
+    margin: 0 0 30px;
+}
+.item.sc-ion-label-md-h,
+.item .sc-ion-label-md-h {
+    white-space: normal;
+    color: #5a5a5a;
+}
+.form-select-card {
+    border: 1px solid #b2b2b2;
+    border-radius: 10px;
+    color: #5a5a5a;
+    margin-bottom: 15px;
+}
+.plan-scn {
+    background: #f2f2f2;
+    border-radius: 15px;
+    color: #656565;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    ion-col {
+        align-items: center;
+        display: flex;
+        &:first-child {
+            flex-grow: 2;
+        }
+    }
+    ion-icon {
+        color: #656565;
+        font-size: 20px;
+        border: 1px solid;
+        padding: 3px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    .view {
+        font-weight: normal;
+        font-size: 10px;
+        border: 1px solid;
+        border-radius: 100px;
+        padding: 5px 7px;
+        margin-left: 10px;
+    }
+}
+.active {
+    border: 1px solid #921D40;
+    ion-icon {
+        background: linear-gradient(270deg, #C8325D 0%, #921D40 100%);
+        border: 1px solid #921D40;
+        color: #fff;
+    }
+}
+.payment-scn {
+    h6 {
+        color: #5a5a5a;
+        font-size: 14px;
+    }
+    .card-payment {
+        font-size: 20px;
+        margin-right: 5px;
+    }
+    ion-label {
+        display: flex;
+        align-items: center;
+    }
+}
