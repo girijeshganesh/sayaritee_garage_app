@@ -31,7 +31,23 @@
 
         </ion-radio-group>
       </ion-list>
-      <div id="map_canvas" style="height:100%;"></div>
+      <div class="map-wrp">
+        <ion-img src="../../../assets/products/map.png" class="map-img"></ion-img>
+        <ion-img src="../../../assets/products/rectangle.svg" class="map-img-bc"></ion-img>
+        <div class="map-inner">
+          <ion-grid>
+            <ion-row>
+              <ion-col class="address-block">
+                <div>{{ 'Wadi Al-defi Street,' | translate }}</div>
+                <div>{{ ' Doha - Qatar' | translate }}</div>
+              </ion-col>
+              <ion-col class="ion-text-right">
+                <span>Change</span>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </div>
+      </div>
       <ion-list class="bac-transparent">
         <ion-item>
           <ion-label>
