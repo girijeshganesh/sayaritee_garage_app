@@ -1,0 +1,141 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="1">
+          <ion-icon routerLink="/home" name="arrow-back-outline"></ion-icon>
+        </ion-col>
+        <ion-col>
+          <ion-title>{{ 'Queries' | translate }}</ion-title>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="content-wrapper">
+    <h1>{{ 'Important Queries' | translate }}</h1>
+    <div class="qry-wrp">
+      <ion-list>
+        <ion-radio-group value="Insurance">
+          <h6>{{ 'Insurance Type' | translate }}</h6>
+          <ion-grid>
+            <ion-row>
+              <ion-col size="6">
+                <ion-item>
+                  <ion-label>{{ 'Full Cover' | translate }}</ion-label>
+                  <ion-radio slot="start" value="Insurance" checked></ion-radio>
+                </ion-item>
+              </ion-col>
+              <ion-col size="6">
+                <ion-item>
+                  <ion-label>{{ 'Third Party' | translate }}</ion-label>
+                  <ion-radio slot="start" value="Insurance1"></ion-radio>
+                </ion-item>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+
+        </ion-radio-group>
+        <ion-radio-group value="Accident">
+          <h6>{{ 'Accident Type' | translate }}</h6>
+          <ion-grid>
+            <ion-row>
+              <ion-col size="6">
+                <ion-item>
+                  <ion-label>{{ 'Major' | translate }}</ion-label>
+                  <ion-radio slot="start" value="Accident" checked></ion-radio>
+                </ion-item>
+              </ion-col>
+              <ion-col size="6">
+                <ion-item>
+                  <ion-label>{{ 'Minor' | translate }}</ion-label>
+                  <ion-radio slot="start" value="Accident1"></ion-radio>
+                </ion-item>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+
+        </ion-radio-group>
+        <ion-radio-group value="Fault">
+          <h6>{{ 'Whose Fault to get Accident' | translate }}</h6>
+          <ion-grid>
+            <ion-row>
+              <ion-col size="6">
+                <ion-item>
+                  <ion-label>{{ 'Mine' | translate }}</ion-label>
+                  <ion-radio slot="start" value="Fault" checked></ion-radio>
+                </ion-item>
+              </ion-col>
+              <ion-col size="6">
+                <ion-item>
+                  <ion-label>{{ 'Not Mine' | translate }}</ion-label>
+                  <ion-radio slot="start" value="Fault1"></ion-radio>
+                </ion-item>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+
+        </ion-radio-group>
+        <ion-radio-group value="Police">
+          <h6>{{ 'Did you reported to Police' | translate }}</h6>
+          <ion-grid>
+            <ion-row>
+              <ion-col size="6">
+                <ion-item>
+                  <ion-label>{{ 'Yes' | translate }}</ion-label>
+                  <ion-radio slot="start" value="Police" checked></ion-radio>
+                </ion-item>
+              </ion-col>
+              <ion-col size="6">
+                <ion-item>
+                  <ion-label>{{ 'No' | translate }}</ion-label>
+                  <ion-radio slot="start" value="Police1"></ion-radio>
+                </ion-item>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+
+        </ion-radio-group>
+        <ion-radio-group value="Message">
+          <h6>{{ 'Did you recieved Message' | translate }}</h6>
+          <ion-grid>
+            <ion-row>
+              <ion-col size="6">
+                <ion-item>
+                  <ion-label>{{ 'Yes' | translate }}</ion-label>
+                  <ion-radio slot="start" value="Message" checked></ion-radio>
+                </ion-item>
+              </ion-col>
+              <ion-col size="6">
+                <ion-item>
+                  <ion-label>{{ 'No' | translate }}</ion-label>
+                  <ion-radio slot="start" value="Message1"></ion-radio>
+                </ion-item>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+
+        </ion-radio-group>
+        <h6>{{ 'If yes copy paste Message' | translate }}</h6>
+        <ion-textarea placeholder="Message here" class="textarea-custom"></ion-textarea>
+      </ion-list>
+    </div>
+  </div>
+  <div class="bottom-bar no-gap">
+    <ion-row class="no-gap">
+      <ion-grid size="12" class="no-gap">
+        <ion-button
+          color="primary"
+          routerLink="/updatevehicle"
+          size="large"
+          class="ion-text-capitalize"
+          expand="full"
+          shape="round"
+          >{{ 'CONTINUE' | translate }}</ion-button
+        >
+      </ion-grid>
+    </ion-row>
+  </div>
+</ion-content>

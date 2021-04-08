@@ -1,21 +1,29 @@
 ion-list {
     background: transparent;
 }
+.ios {
+    ion-checkbox {
+        padding: 5px;
+        margin: 2px 0 0;
+        position: relative;
+        right: 3px;    
+    }
+}
 h4 {
     margin: 0;
-    color: #5A5A5A;
+    color: #5a5a5a;
     font-size: 16px;
     padding: 5px 0 0 0;
 }
 h6 {
     margin: 0;
-    color: #5A5A5A;
+    color: #5a5a5a;
     font-size: 12px;
 }
 .location {
     font-size: 10px;
-    color: #AD274E;
-    border: 1px solid #AD274E;
+    color: #ad274e;
+    border: 1px solid #ad274e;
     border-radius: 100px;
     padding: 5px 20px;
     position: relative;

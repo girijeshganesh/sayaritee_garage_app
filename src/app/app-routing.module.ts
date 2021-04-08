@@ -72,6 +72,10 @@ const routes: Routes = [
   {
     path: 'plandetail',
     loadChildren: () => import('./plandetail/plandetail.module').then( m => m.PlandetailPageModule)
+  },
+  {
+    path: 'queries',
+    loadChildren: () => import('./queries/queries.module').then( m => m.QueriesPageModule)
   }
 
 
