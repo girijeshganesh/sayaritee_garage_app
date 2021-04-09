@@ -45,6 +45,9 @@ ion-content {
 ion-item {
   --border-color: var(--ion-item-border-color, var(--ion-border-color, var(--ion-color-step-150, transparent)));
 }
+[aria-checked=true].sc-ion-alert-md .alert-radio-inner.sc-ion-alert-md {
+  background-color: #931D41;
+}
 .home-top-nav {
   background: #8E54E9;
   padding-top: 5px !important;
