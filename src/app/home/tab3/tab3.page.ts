@@ -55,7 +55,10 @@ export class Tab3Page implements OnInit {
     form = [
       { val: 'Tyre and alloy relpacement', isChecked: true },
       { val: 'Car polish and detailing', isChecked: false },
-      { val: 'Body kits', isChecked: false }
+      { val: 'Body kits', isChecked: false },
+      { val: 'Body kits1', isChecked: false },
+      { val: 'Body kits2', isChecked: false },
+      { val: 'Body kits3', isChecked: false }
     ];
     lessQty(index){
       if(this.cart[index].quantity > 0){
