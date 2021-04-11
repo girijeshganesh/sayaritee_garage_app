@@ -47,16 +47,6 @@ ion-item {
 ion-footer {
   padding: 0 10px 10px;
   background: #f3f3f3;
-  ion-toolbar {
-    --background: transparent linear-gradient(270deg, #c8325d 0%, #921d40 100%) 0% 0% no-repeat padding-box;
-    ion-toolbar ion-title {
-      font-size: 16px;
-    }
-  }
-}
-ion-footer ion-toolbar:last-of-type {
-  padding-bottom: var(--ion-safe-area-bottom, 0);
-  border-radius: 100px;
 }
 .footer-md::before {
   background-image: none;
