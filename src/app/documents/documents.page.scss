@@ -6,7 +6,7 @@ h6 {
     padding-top: 15px;
 }
 .padding {
-    padding: 0 10px;
+    padding: 0 10px 10px;
 }
 .file-upload {
     .file-type {
@@ -20,6 +20,27 @@ h6 {
         padding: 20px;
         color: #5A5A5A;
         border-radius: 15px;
-        margin-bottom: 10px;
+        margin-bottom: 0;
     }
+}
+.uploaded-img {
+    width: 58px;
+    height: 58px; 
+    border-radius: 10px;
+    object-fit: cover;
+}
+.x-small-card {
+    width: 70px;
+    height: 70px;
+}
+.upload-grid {
+    padding: 0;
+}
+.trash-icn {
+    position: absolute;
+    right: 8px;
+    background: #fff;
+    top: 10px;
+    padding: 2px;
+    border-radius: 50%;
 }

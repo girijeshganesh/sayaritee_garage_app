@@ -19,24 +19,80 @@
     <div class="bac-white">
       <div class="list-bar padding">
         <h6 class="pt-15">{{ 'Vehicle image' | translate }}</h6>
-        <div class="file-upload">
-          <ion-input type="file" accept="image/*" id="upload" class="file-type"></ion-input>
-          <ion-icon name="add-outline"></ion-icon>
-        </div>
+        <ion-grid class="upload-grid animate__animated animate__fadeIn animate__faster">
+          <ion-slides [options]="{ slidesPerView: 'auto', zoom: false, grabCursor: true }">
+            <ion-slide class="x-small-card">
+              <ion-col>
+                <img class="uploaded-img" src="../../../assets/products/car.jpg" />
+                <ion-icon name="trash-outline" class="trash-icn"></ion-icon>
+              </ion-col>
+            </ion-slide>
+            <ion-slide class="x-small-card">
+              <ion-col>
+                <img class="uploaded-img" src="../../../assets/products/car.jpg" />
+                <ion-icon name="trash-outline" class="trash-icn"></ion-icon>
+              </ion-col>
+            </ion-slide>
+            <ion-slide class="x-small-card">
+              <ion-col>
+                <div class="file-upload">
+                  <ion-input type="file" accept="image/*" id="upload" class="file-type"></ion-input>
+                  <ion-icon name="add-outline"></ion-icon>
+                </div>
+              </ion-col>
+            </ion-slide>
+          </ion-slides>
+        </ion-grid>
       </div>
       <div class="list-bar padding">
         <h6>{{ 'Upload istimara' | translate }}</h6>
-        <div class="file-upload">
-          <ion-input type="file" accept="image/*" id="upload" class="file-type"></ion-input>
-          <ion-icon name="add-outline"></ion-icon>
-        </div>
+        <ion-grid class="upload-grid animate__animated animate__fadeIn animate__faster">
+          <ion-slides [options]="{ slidesPerView: 'auto', zoom: false, grabCursor: true }">
+            <ion-slide class="x-small-card">
+              <ion-col>
+                <img class="uploaded-img" src="../../../assets/products/car.jpg" />
+              </ion-col>
+            </ion-slide>
+            <ion-slide class="x-small-card">
+              <ion-col>
+                <img class="uploaded-img" src="../../../assets/products/car.jpg" />
+              </ion-col>
+            </ion-slide>
+            <ion-slide class="x-small-card">
+              <ion-col>
+                <div class="file-upload">
+                  <ion-input type="file" accept="image/*" id="upload" class="file-type"></ion-input>
+                  <ion-icon name="add-outline"></ion-icon>
+                </div>
+              </ion-col>
+            </ion-slide>
+          </ion-slides>
+        </ion-grid>
       </div>
       <div class="list-bar padding">
         <h6>{{ 'Upload QID' | translate }}</h6>
-        <div class="file-upload">
-          <ion-input type="file" accept="image/*" id="upload" class="file-type"></ion-input>
-          <ion-icon name="add-outline"></ion-icon>
-        </div>
+       <ion-grid class="upload-grid animate__animated animate__fadeIn animate__faster">
+        <ion-slides [options]="{ slidesPerView: 'auto', zoom: false, grabCursor: true }">
+          <ion-slide class="x-small-card">
+            <ion-col>
+              <img class="uploaded-img" src="../../../assets/products/car.jpg" />
+            </ion-col>
+          </ion-slide>
+          <ion-slide class="x-small-card">
+            <ion-col>
+              <img class="uploaded-img" src="../../../assets/products/car.jpg" />
+            </ion-col>
+          </ion-slide>
+          <ion-slide class="x-small-card">
+            <ion-col>
+              <div class="file-upload">
+                <ion-input type="file" accept="image/*" id="upload" class="file-type"></ion-input>
+                <ion-icon name="add-outline"></ion-icon>
+              </div>
+            </ion-col>
+          </ion-slide>
+        </ion-slides>
+      </ion-grid>
       </div>
 
     </div>
